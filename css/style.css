@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*body start*/
+body{
+	background: linear-gradient( rgba(177,210,253,1), #FFFFFF);
+}
+
+.center_body{
+	width: 97%;
+	border-width: 2px;
+	border-style: outset;
+	margin: 10px auto 5px;
+	background-color: #FFFFFF;
+}
+/*bodyend*/
+
+/*header start*/
+header{
+	overflow: hidden;
+	padding: 10px 0px;
+}
+.header_left {
+	width: 30%;
+	float: left;
+}
+.header_left .logo {
+	width: 20%;
+	float: left;
+}
+.header_left .logo img {
+	width: 100%;
+	height: 90px;
+}
+.header_left .logo_text {
+	width: 75%;
+	float: left;
+	padding: 28px 0px;
+}
+.header_left .logo_text h1{
+	font-size: 28px;
+	color: #5E7682;
+
+}
+
+.menu {
+	width: 65%;
+	float: right;
+	padding: 38px 23px;
+}
+.menu ul{
+	overflow: hidden;
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	padding: 0px 9px;
+
+}
+.menu ul li a{
+	color: #6E7480;
+  display: block;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 17px;
+  padding: 20px 20px;
+   transition: 1s;
+}
+.menu ul li a:hover{
+	color: yellow;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	background-image: url("../image/house.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+	padding: 50px 0px 150px 0px;
+	height:460px;
+	
+}
+.banner .content{
+	width: 25%;
+	padding: 45px 30px;
+	background-color: rgba(100,89,85,.7);
+	color: #D7CBCB;
+}
+
+.banner .content h1{
+	text-transform: uppercase;
+	font-size: 29px;
+	line-height: 40px;
+	word-spacing: 10px;
+	padding-bottom: 15px;
+}
+
+.banner .content p{
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+
+.banner .content button{
+	
+	background-color: rgba(100,89,85,7);
+	color: #D7CBCB;
+	text-align: center;
+	padding: 5px 15px;
+	border:none;
+	border-radius: 5px;
+}
+/*banner end*/
+
+/*service start*/
+.service{
+	overflow: hidden;
+	padding: 2% 3%;
+}
+.service1{
+	width: 25%;
+	float: left;
+	text-align: center;
+	padding: 1%;
+	margin: 0% 3.1%;
+
+}
+.service .service1 h1{
+	color: #CCC6C3;
+	padding-bottom: 5px;
+}
+.service1 img{
+	width: 100%;
+	height: 100px;
+}
+.service1 p{
+	color: #999DAF;
+	margin: 25px 0px;
+	padding: 2px;
+}
+.service1 button{
+	color: white;
+	background-color: #3C5677;
+	border:none;
+	padding: 5px 15px;
+	border-radius: 5px;
+
+}
+/*service end*/
+
+/*footer start*/
+footer{
+	text-align: center;
+	color: #929EAD;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+footer p{
+	margin: 20px 0px;
+}
+footer .icon img{
+	width: 40px;
+	height: 40px;
+	padding: 0px 5px;
+}
+/*footer end*/
